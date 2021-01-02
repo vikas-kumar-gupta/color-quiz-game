@@ -1,0 +1,44 @@
+body {
+    background-color: #232323;
+    margin: 0;
+}
+
+#upperDiv{
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#colorName {
+    font-size: 50px;
+}
+
+#lowerDiv {
+    text-align: center;
+    background-color: white;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+button{
+    outline: none;
+    border: 0px;
+}
+.square {
+    width: 30%;
+    border-radius: 10%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    transition: background 0.4s;
+}
+
+.selected {
+    background-color: steelblue;
+}
